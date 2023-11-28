@@ -55,16 +55,30 @@ html, body {
   border-radius: 10px;
   padding: 5px;
   background-color: rgb(235, 241, 238);
-  /* background-color: rgb(201, 221, 211); */
 }
 
 #elements .element .pic {
-  background-image: url(https://cdn.pixabay.com/photo/2020/06/12/18/41/autumn-5291453_640.jpg);
   width: 100%;
   height: 70%;
   border-radius: 8px;
   background-size: cover;
   background-position: center;
+}
+
+#elements .element:first-child .pic {
+  background-image: url(https://cdn.pixabay.com/photo/2020/06/12/18/41/autumn-5291453_640.jpg);
+}
+
+#elements .element:nth-child(2) .pic {
+  background-image: url(https://cdn.pixabay.com/photo/2017/07/30/10/42/spring-2553958_640.jpg);
+}
+
+#elements .element:nth-child(3) .pic {
+  background-image: url(https://cdn.pixabay.com/photo/2020/11/24/13/43/rose-hip-5772615_640.jpg);
+}
+
+#elements .element:nth-child(4) .pic {
+  background-image: url(https://cdn.pixabay.com/photo/2022/11/14/06/56/maple-7590861_640.jpg);
 }
 
 #elements .element .content {
